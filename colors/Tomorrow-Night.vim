@@ -274,7 +274,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("Comment", s:comment, "", "")
 	call <SID>X("Todo", s:comment, s:background, "")
 	call <SID>X("Title", s:comment, "", "")
-	" call <SID>X("Identifier", s:red, "", "none")
+	call <SID>X("Identifier", s:foreground, "", "")
 	call <SID>X("Statement", s:foreground, "", "")
 	call <SID>X("Conditional", s:foreground, "", "")
 	call <SID>X("Repeat", s:foreground, "", "")
