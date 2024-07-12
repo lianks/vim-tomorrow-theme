@@ -336,6 +336,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("goDeclaration", s:blue, "", "")
 	call <SID>X("goConstants", s:yellow, "", "")
 	call <SID>X("goBuiltins", s:orange, "", "")
+	call <SID>X("goKeyword", s:orange, "", "")
 
 	" CoffeeScript Highlighting
 	call <SID>X("coffeeKeyword", s:purple, "", "")
