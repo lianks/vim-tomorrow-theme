@@ -408,6 +408,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
 	call <SID>X("goBuiltins", s:purple, "", "")
 	call <SID>X("goRepeat", s:purple, "", "")
 	call <SID>X("goLabel", s:purple, "", "")
+	call <SID>X("goType", s:purple, "", "")
 
 	" Clojure Highlighting
 	call <SID>X("clojureConstant", s:orange, "", "")
