@@ -47,6 +47,8 @@ let s:gui0E        = "b294bb"
 let g:base16_gui0E = "b294bb"
 let s:gui0F        = "a3685a"
 let g:base16_gui0F = "a3685a"
+let s:gui10        = "dfe1e9"
+let g:base16_gui10 = "dfe1e9"
 
 " Terminal color definitions
 let s:cterm00        = "00"
@@ -234,7 +236,7 @@ call <sid>hi("Define",       s:gui0E, "", s:cterm0E, "", "none", "")
 " call <sid>hi("Delimiter",    s:gui0F, "", s:cterm0F, "", "", "")
 call <sid>hi("Float",        s:gui09, "", s:cterm09, "", "", "")
 call <sid>hi("Function",     s:gui0D, "", s:cterm0D, "", "", "")
-" call <sid>hi("Identifier",   s:gui08, "", s:cterm08, "", "none", "")
+call <sid>hi("Identifier",   s:gui10, "", s:cterm10, "", "none", "")
 call <sid>hi("Include",      s:gui0D, "", s:cterm0D, "", "", "")
 call <sid>hi("Keyword",      s:gui0E, "", s:cterm0E, "", "", "")
 call <sid>hi("Label",        s:gui0A, "", s:cterm0A, "", "", "")
