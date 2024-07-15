@@ -253,7 +253,7 @@ call <sid>hi("Structure",    s:gui0E, "", s:cterm0E, "", "", "")
 " call <sid>hi("Tag",          s:gui0A, "", s:cterm0A, "", "", "")
 " call <sid>hi("Todo",         s:gui0A, s:gui01, s:cterm0A, s:cterm01, "", "")
 call <sid>hi("Type",         s:gui0A, "", s:cterm0A, "", "none", "")
-call <sid>hi("Typedef",      s:gui0A, "", s:cterm0A, "", "", "")
+" call <sid>hi("Typedef",      s:gui0A, "", s:cterm0A, "", "", "")
 
 " C highlighting
 call <sid>hi("cOperator",   s:gui0C, "", s:cterm0C, "", "", "")
